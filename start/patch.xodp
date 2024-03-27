@@ -1,2 +1,47 @@
 {
+  "description": "Start the timer.",
+  "nodes": [
+    {
+      "id": "H1n5LffkC",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "Timer one.",
+      "id": "Bkg39LGfyR",
+      "label": "Timer1",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "@/input-timer-one"
+    },
+    {
+      "description": "Update",
+      "id": "HyM358fzyA",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "description": "Pulse on start.",
+      "id": "S1m3cLGzJR",
+      "label": "DONE",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    }
+  ]
 }

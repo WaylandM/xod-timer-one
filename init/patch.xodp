@@ -1,2 +1,57 @@
 {
+  "description": "Initialize the timer.",
+  "nodes": [
+    {
+      "id": "SJxKZzMJR",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "Timer one.",
+      "id": "HJwYbGM1A",
+      "label": "Timer1",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "@/input-timer-one"
+    },
+    {
+      "description": "Period of time in microseconds.",
+      "id": "SJ7oZfz10",
+      "label": "Period",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "id": "SksGzMGk0",
+      "label": "INIT",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "description": "Pulse on initialization.",
+      "id": "BydtGGfyC",
+      "label": "DONE",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    }
+  ]
 }

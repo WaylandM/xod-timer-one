@@ -1,2 +1,58 @@
 {
+  "description": "Set period of timer one.",
+  "nodes": [
+    {
+      "id": "ryCZIfM10",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "Timer one.",
+      "id": "HyxR-LMz1R",
+      "label": "Timer1",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "@/input-timer-one"
+    },
+    {
+      "description": "Period of time in microseconds.",
+      "id": "rybA-LzfJA",
+      "label": "Period",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "description": "Update",
+      "id": "HyzAZUzMyC",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "description": "Pulse on initialization.",
+      "id": "HJQR-Izzk0",
+      "label": "DONE",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    }
+  ]
 }

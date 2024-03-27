@@ -8,6 +8,6 @@ node {
     }
 
     void evaluate(Context ctx) {
-        emitValue<output_OUT>(ctx, &Timer1);
+        emitValue<output_Timer1>(ctx, &Timer1);
     }
 }
