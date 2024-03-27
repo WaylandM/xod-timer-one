@@ -1,0 +1,25 @@
+{
+  "description": "Represents timer one.",
+  "nodes": [
+    {
+      "id": "Hk721Mf1A",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "Timer one.",
+      "id": "HJ53yGz10",
+      "label": "timer1",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/output-self"
+    }
+  ]
+}
