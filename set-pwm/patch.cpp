@@ -18,7 +18,8 @@ node {
         pinMode(constant_input_PORT, OUTPUT);
  
         auto t1 = getValue<input_Timer1>(ctx);
-        t1->pwm(constant_input_PORT, duty));
+        //t1->pwm(constant_input_PORT, duty);
+        Timer1.pwm(constant_input_PORT, duty);
         emitValue<output_DONE>(ctx, 1);
     }
 }

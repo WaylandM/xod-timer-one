@@ -9,7 +9,8 @@ node {
             return;
 
         auto t1 = getValue<input_Timer1>(ctx);
-        t1->initialize(getValue<input_Period>(ctx));
+        //t1->initialize(getValue<input_Period>(ctx));
+        Timer1.initialize(getValue<input_Period>(ctx));
         emitValue<output_DONE>(ctx, 1);
     }
 }

@@ -33,6 +33,9 @@
       "type": "xod/patch-nodes/input-number"
     },
     {
+      "boundLiterals": {
+        "__out__": "On Boot"
+      },
       "id": "SksGzMGk0",
       "label": "INIT",
       "position": {
